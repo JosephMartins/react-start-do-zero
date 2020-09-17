@@ -1,0 +1,48 @@
+Arguments: 
+  /usr/bin/node /usr/share/yarn/bin/yarn.js start
+
+PATH: 
+  /home/joseph/.zinit/polaris/sbin:/home/joseph/.zinit/polaris/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/joseph/Android/Sdk/emulator:/home/joseph/Android/Sdk/tools:/home/joseph/Android/Sdk/tools/bin:/home/joseph/Android/Sdk/platform-tools#:/home/joseph/Android/Sdk/emulator:/home/joseph/Android/Sdk/tools:/home/joseph/Android/Sdk/tools/bin:/home/joseph/Android/Sdk/platform-tools#
+
+Yarn version: 
+  1.22.5
+
+Node version: 
+  12.18.4
+
+Platform: 
+  linux x64
+
+Trace: 
+  SyntaxError: /home/joseph/Documentos/Origamid/React/package.json: Unexpected token } in JSON at position 240
+      at JSON.parse (<anonymous>)
+      at /usr/share/yarn/lib/cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (/usr/share/yarn/lib/cli.js:310:30)
+      at /usr/share/yarn/lib/cli.js:321:13
+
+npm manifest: 
+  {
+    "name": "aprendendo-react",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "start": "webpack-dev-server --mode development --open --hot",
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+      "webpack": "^4.44.1",
+      "webpack-cli": "^3.3.12",
+      "webpack-dev-server": "^3.11.0"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
